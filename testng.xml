@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Jun/IdeaProjects/com.Selenium2020-2021">
+        <classes>
+            <class name="com.VyTrack.Basics.PageTitle">
+                <methods>
+                    <include name="verifyTitle"/>
+                </methods>
+            </class>
+            <class name="com.VyTrack.Basics.TestNGDemo">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="com.VyTrack.utils.Beg_End">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
